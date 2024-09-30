@@ -1334,13 +1334,14 @@ MARK: Stats
 	gap: 50px;
 	padding: 80px min(70px, 3vw);
 	background-image: url(../imgs/discount-background1.jpg);
+	background-size: cover;
 	border-image: linear-gradient(
-		rgba(33, 150, 243, 0.9),
-		rgba(33, 150, 243, 0.9)
+		rgba(33, 150, 243, 0.95),
+		rgba(33, 150, 243, 0.95)
 	);
 	border-image-slice: fill 1;
 
-	animation: bg-change 0.5s;
+	animation: bg-change 5s infinite alternate;
 	& picture > img {
 		width: min(300px, 80%);
 		margin-inline: auto;
