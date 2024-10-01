@@ -126,6 +126,7 @@ MARK: Utilities
 ===============*/
 .container {
 	width: 100%;
+	padding-inline: 15px;
 	margin-inline: auto;
 	/* overflow-x: hidden; */
 }
@@ -1547,6 +1548,7 @@ MARK: @Media Queries
 @media screen and (min-width: 576px) {
 	.container {
 		width: 540px;
+		padding-inline: unset;
 	}
 
 	.events::after,
